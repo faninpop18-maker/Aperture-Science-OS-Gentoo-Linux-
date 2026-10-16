@@ -1,0 +1,41 @@
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "source": "~/.config/fastfetch/aperturescience.txt", 
+    "color": {
+      "1": "blue",
+      "2": "blue"
+    }
+  },
+  "display": {
+    "color": {
+      "keys": "blue",
+      "title": "blue"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    {
+         "type": "os",
+         "format": "Aperture Science OS"
+    },
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "de",
+    "wm",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "break",
+    "colors"
+  ]
+}
+
